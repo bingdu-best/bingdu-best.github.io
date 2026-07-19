@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bingdu is the always-on creative engine for high-quality TikTok product videos at scale.">
+  <title>Bingdu — Never run out of winning creatives.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Bingdu home"><img src="assets/bingdu-logo.png" alt="Bingdu"></a>
+    <nav aria-label="Main navigation">
+      <a href="#work" data-i18n="navWork">Work</a><a href="#process" data-i18n="navProcess">Process</a><a href="#faq">FAQ</a>
+    </nav>
+    <div class="header-actions">
+      <button class="language" id="languageToggle" type="button" aria-label="Switch language"><span>EN</span><span class="active">中文</span></button>
+      <a class="button button-small" href="#pilot" data-i18n="startPilot">Start a pilot</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span><span data-i18n="heroEyebrow">ALWAYS-ON CREATIVE / BUILT FOR PERFORMANCE</span></p>
+        <h1 data-i18n="heroTitle">Never run out of<br><em>winning creatives.</em></h1>
+        <p class="hero-lede" data-i18n="heroLede">Give us your product. Get high-quality TikTok creatives—at any scale, continuously improving.</p>
+        <div class="hero-actions"><a class="button" href="#pilot" data-i18n="startPilot">Start a pilot</a><a class="text-link" href="#work"><span data-i18n="seeWork">See the work</span> ↓</a></div>
+        <div class="hero-proof"><div><strong>∞</strong><span data-i18n="proofOne">creative capacity<br>on demand</span></div><div><strong>HQ</strong><span data-i18n="proofTwo">native TikTok<br>quality</span></div><div><strong>↗</strong><span data-i18n="proofThree">performance-led<br>improvement</span></div></div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="phone phone-main"><img src="assets/creative-main.jpg" alt="Product creative example"><div class="phone-ui"><span>01</span><span>OUTPUT</span></div></div>
+        <div class="phone phone-side"><img src="assets/creative-side.jpg" alt="Alternative product creative"><div class="phone-ui"><span>02</span><span>VARIANT</span></div></div>
+        <div class="status-card"><i></i><span data-i18n="status">CREATIVE PIPELINE<br><b>ALWAYS ON</b></span></div>
+      </div>
+    </section>
+
+    <section class="client-strip"><span data-i18n="builtFor">WHO IT'S FOR</span><strong data-i18n="audienceOne">PERFORMANCE<br>AGENCIES</strong><i></i><strong data-i18n="audienceTwo">E-COMMERCE<br>BRANDS</strong><i></i><strong data-i18n="audienceThree">LEAN CREATIVE<br>TEAMS</strong></section>
+
+    <section class="work section-pad" id="work">
+      <div class="section-heading reveal"><div><p class="eyebrow">01 / <span data-i18n="portfolioLabel">THE CREATIVE ENGINE</span></p><h2 data-i18n="portfolioTitle">One product.<br><em>Endless ways to sell it.</em></h2></div><p data-i18n="portfolioCopy">Research in. Performance signals in. Fresh TikTok creatives out.</p></div>
+      <article class="customer-case reveal">
+        <header class="case-header"><div><span>CASE / 001</span><h3>Fizz &amp; Rizz</h3></div><p data-i18n="caseType">JEWELRY MYSTERY BOX / UGC CREATIVE</p></header>
+        <div class="case-flow">
+          <div class="case-media"><img src="assets/fizz-rizz-product-hero.png" alt="Fizz & Rizz jewelry mystery box"><span class="tag" data-i18n="caseInput">CUSTOMER + PRODUCT</span></div>
+          <div class="case-arrow"><span>→</span><small data-i18n="caseEngine">BINGDU<br>CREATIVE ENGINE</small></div>
+          <div class="case-media case-video"><video controls muted playsinline preload="metadata" aria-label="Fizz & Rizz UGC creative"><source src="assets/fizz-rizz-output.mp4" type="video/mp4"></video><button class="video-play" type="button" aria-label="Play Fizz & Rizz creative"><span>▶</span><small>PLAY CREATIVE</small></button><span class="tag" data-i18n="caseOutput">VIDEO OUTPUT</span></div>
+        </div>
+      </article>
+      <article class="customer-case reveal case-second">
+        <header class="case-header"><div><span>CASE / 002</span><h3 data-i18n="rugCustomer">Home &amp; Living</h3></div><p data-i18n="rugType">VINTAGE WASHABLE RUG / UGC CREATIVE</p></header>
+        <div class="case-flow">
+          <div class="case-media"><img src="assets/rug-product-hero.png" alt="Vintage floral washable rug in a modern living room"><span class="tag" data-i18n="caseInput">CUSTOMER + PRODUCT</span></div>
+          <div class="case-arrow"><span>→</span><small data-i18n="caseEngine">BINGDU<br>CREATIVE ENGINE</small></div>
+          <div class="case-media case-video"><video controls muted playsinline preload="metadata" aria-label="Washable rug UGC creative"><source src="assets/rug-output.mp4" type="video/mp4"></video><button class="video-play" type="button" aria-label="Play rug creative"><span>▶</span><small>PLAY CREATIVE</small></button><span class="tag" data-i18n="caseOutput">VIDEO OUTPUT</span></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="process section-pad" id="process">
+      <div class="section-heading reveal"><div><p class="eyebrow">02 / <span data-i18n="processLabel">HOW IT WORKS</span></p><h2 data-i18n="processTitle">Product in.<br><em>Growth loop out.</em></h2></div><p data-i18n="processCopy">Bring a testing brief—or let Bingdu run the strategy.</p></div>
+      <div class="steps reveal">
+        <article><b>01</b><img class="step-virus-img" src="assets/step-virus-input.png" alt="Bingdu product input agent"><div><span data-i18n="stepOneLabel">INPUT</span><h3 data-i18n="stepOneTitle">Give us your product</h3><p data-i18n="stepOneCopy">Product info, assets and brand rules. That’s enough.</p></div></article>
+        <article><b>02</b><img class="step-virus-img" src="assets/step-virus-create.png" alt="Bingdu creative production agent"><div><span data-i18n="stepTwoLabel">CREATE + TEST</span><h3 data-i18n="stepTwoTitle">We find and produce the angles</h3><p data-i18n="stepTwoCopy">Research, testing plan and high-volume production.</p></div></article>
+        <article><b>03</b><img class="step-virus-img" src="assets/step-virus-learn.png" alt="Bingdu performance learning agent"><div><span data-i18n="stepThreeLabel">LEARN + SCALE</span><h3 data-i18n="stepThreeTitle">Results shape the next round</h3><p data-i18n="stepThreeCopy">Winning signals become better hooks, formats and ads.</p></div></article>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="brand-engine section-pad reveal" aria-label="Bingdu advantage">
+        <div class="engine-copy"><p class="eyebrow">03 / <span data-i18n="advantage">THE ADVANTAGE</span></p><h2 data-i18n="engineTitle">Your content creator.<br><em>On steroids.</em></h2><p data-i18n="engineCopy">Research. Create. Test. Learn. Repeat.</p></div>
+        <div class="engine-visual"><img src="assets/bingdu-agent-v2.png" alt="Luminous Bingdu creative engine"></div>
+        <div class="engine-hud"><span>SYS / ACTIVE</span><span>OUTPUT / SCALABLE</span><span>LOOP / LEARNING</span></div>
+      </div>
+      <div class="benefit-content section-pad">
+        <div class="section-heading reveal"><div><h2 data-i18n="benefitTitle">Content creation<br><em>without a ceiling.</em></h2></div></div>
+        <div class="benefit-grid reveal">
+          <article><span>01</span><img class="benefit-art benefit-art-scale" src="assets/advantage-ugc-scale.png" alt="Multiple UGC creative variations with creators"><h3 data-i18n="benefitOneTitle">Never hit creative fatigue.</h3><p data-i18n="benefitOneCopy">As many campaign-ready creatives as testing demands.</p></article>
+          <article><span>02</span><img class="benefit-art benefit-art-quality" src="assets/advantage-ugc-quality.jpg" alt="TikTok-style creator demonstrating a product"><h3 data-i18n="benefitTwoTitle">Made to be watched.</h3><p data-i18n="benefitTwoCopy">Native TikTok quality. Strong hooks. Coherent products.</p></article>
+          <article><span>03</span><img class="benefit-art benefit-art-learning" src="assets/advantage-ugc-learning.jpg" alt="Sequence of real product creative frames"><h3 data-i18n="benefitThreeTitle">Built to get smarter.</h3><p data-i18n="benefitThreeCopy">Every result sharpens the next creative round.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="pilot section-pad" id="pilot">
+      <div class="pilot-card reveal"><div><p class="eyebrow" data-i18n="pilotEyebrow">START WITH ONE PRODUCT / SCALE FROM THERE</p><h2 data-i18n="pilotTitle">Your product deserves<br><em>more chances to win.</em></h2><p data-i18n="pilotCopy">Show us the product and the market. We’ll propose the first testing angles, create the videos and demonstrate what an always-on creative pipeline can do for your team.</p></div><div class="pilot-action wechat-contact"><img src="assets/wechat-qr.png" alt="WeChat QR code for Bingdu"><div><strong data-i18n="addWechat">ADD US ON WECHAT</strong><code>CharlieYanglujia</code><small data-i18n="pilotNote">Scan the code or search the ID.<br>No long-term commitment.</small></div></div></div>
+    </section>
+
+    <section class="faq section-pad" id="faq">
+      <div class="section-heading"><div><p class="eyebrow">04 / FAQ</p><h2 data-i18n="faqTitle">The practical<br><em>questions.</em></h2></div></div>
+      <div class="faq-list">
+        <details><summary><span data-i18n="q1">Do we need to provide reference videos or ideas?</span><b>+</b></summary><p data-i18n="a1">No. Product information and brand assets are enough to start. If you already have winners, references or hypotheses, we can use them. If not, we research the market and build the testing plan.</p></details>
+        <details><summary><span data-i18n="q2">How is this different from using an AI video tool?</span><b>+</b></summary><p data-i18n="a2">A generation tool creates clips. Bingdu delivers a creative system: research, concepts, scripts, production, quality standards, testing logic and continuous optimization—at scale.</p></details>
+        <details><summary><span data-i18n="q3">How many videos can you produce?</span><b>+</b></summary><p data-i18n="a3">The system is designed to scale with demand—from a focused pilot to dozens of videos per day across multiple products. Volume, formats and delivery rhythm are set around your testing plan.</p></details>
+        <details><summary><span data-i18n="q4">Can you manage the testing strategy too?</span><b>+</b></summary><p data-i18n="a4">Yes. You can tell us exactly what to test, or we can research the opportunity, define the schedule and use campaign results to decide what the next creative round should explore.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer section-pad"><div><a class="brand" href="#top"><img src="assets/bingdu-logo.png" alt="Bingdu"></a><p data-i18n="tagline">GO VIRAL ABROAD.</p></div><div><p data-i18n="footerReady">READY TO BUILD YOUR<br>NEXT WINNING CREATIVE?</p><span class="wechat-id">WECHAT / CharlieYanglujia</span></div><small>© 2026 BINGDU</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
